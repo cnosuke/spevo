@@ -1,6 +1,6 @@
 # SpeVO
 
-Yet another extracter of specific vocabularies from words set.
+Yet another extractor of specific vocabularies from words set.
 
 # LICENSE
 MIT LICENSE
