@@ -62,9 +62,9 @@ module Spevo
     attr :root
     def initialize(ary)
       ary = ary.dup
-      @root = Tree::Root.new(ary.pop)
+      @root = WordTree::Root.new(ary.pop)
       ary.each do |a|
-        Tree::Node.new(@root, a)
+        WordTree::Node.new(@root, a)
       end
     end
     def max
